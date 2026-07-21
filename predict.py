@@ -14,7 +14,7 @@ from feature_extraction import (
 
 brand_model = joblib.load("models/brand_model.pkl")
 model_model = joblib.load("models/model_model.pkl")
-user_model = joblib.load("models/user_stack.pkl")
+user_model = joblib.load("models/user_xgb.pkl")
 
 scaler = joblib.load("models/scaler.pkl")
 
